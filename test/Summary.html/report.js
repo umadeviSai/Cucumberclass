@@ -51,13 +51,15 @@ formatter.match({
   "location": "TC_02_ScenarioOutline.launch_stepdef(String,String)"
 });
 formatter.result({
-  "duration": 18676138362,
-  "status": "passed"
+  "duration": 17130628596,
+  "error_message": "org.junit.ComparisonFailure: expected:\u003cG[oogle]\u003e but was:\u003cG[iggle.com]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.Testcases.TC_02_ScenarioOutline.launch_stepdef(TC_02_ScenarioOutline.java:22)\r\n\tat ✽.Given launch firefox with the https://www.google.com/?gws_rd\u003dssl(ScenarioOutline.feature:4)\r\n",
+  "status": "failed"
 });
 formatter.match({});
 formatter.result({
   "status": "undefined"
 });
+formatter.embedding("image/png", "embedded0.png");
 formatter.scenario({
   "line": 11,
   "name": "scenario description",
@@ -74,7 +76,7 @@ formatter.scenario({
 });
 formatter.step({
   "line": 4,
-  "name": "launch firefix with the https://in.yahoo.com/?p\u003dus",
+  "name": "launch firefox with the https://in.yahoo.com/?p\u003dus",
   "matchedColumns": [
     0,
     1
@@ -92,7 +94,7 @@ formatter.step({
 formatter.match({
   "arguments": [
     {
-      "val": "firefix",
+      "val": "firefox",
       "offset": 7
     },
     {
@@ -103,11 +105,13 @@ formatter.match({
   "location": "TC_02_ScenarioOutline.launch_stepdef(String,String)"
 });
 formatter.result({
-  "duration": 253794,
-  "status": "passed"
+  "duration": 28097376502,
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Yahoo]\u003e but was:\u003c[Giggle.com]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.Testcases.TC_02_ScenarioOutline.launch_stepdef(TC_02_ScenarioOutline.java:22)\r\n\tat ✽.Given launch firefox with the https://in.yahoo.com/?p\u003dus(ScenarioOutline.feature:4)\r\n",
+  "status": "failed"
 });
 formatter.match({});
 formatter.result({
   "status": "undefined"
 });
+formatter.embedding("image/png", "embedded1.png");
 });

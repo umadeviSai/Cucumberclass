@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 		features= {"features"},
 		glue= {"com.Testcases"},
 		monochrome=true,
-		tags= {"@custom","@First"},
+		tags= {"@custom"},
 		format= {"html:test/Summary.html","json:summary.json"}
 		)
 public class Runner {

@@ -1,5 +1,7 @@
 package com.Testcases;
 
+import static org.junit.Assert.assertEquals;
+
 import java.util.List;
 
 import com.GenericFunctions.GenericFunctions;
@@ -17,6 +19,7 @@ public class TC_02_ScenarioOutline extends GenericFunctions {
 			System.out.println("Browser Launched successfully");
 			else 
 			System.out.println("Browser is not launched successfully");
+			assertEquals(driver.getTitle(), "Giggle.com");
 		   
 		}
 		

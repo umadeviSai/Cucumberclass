@@ -8,5 +8,5 @@ Scenario Outline: scenario description
 		Examples:
 		| browser | url | title |
 		| firefox | https://www.google.com/?gws_rd=ssl| nopCommerce |
-		| firefix | https://in.yahoo.com/?p=us| nopCommerce |
+		| firefox | https://in.yahoo.com/?p=us| nopCommerce |
 	
